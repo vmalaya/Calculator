@@ -23,6 +23,9 @@ public class Calculator {
         System.out.println("Sum is " + (a + b));
         System.out.println("Difference is " + (a - b));
         System.out.println("Multiplication is " + (a * b));
-        System.out.println("Division is " + (a / b));
+        if (b == 0) {
+            System.out.println("Division is Infinity");
+        } else{
+        System.out.println("Division is " + (a / b));}
     }
 }
